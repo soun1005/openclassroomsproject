@@ -1,0 +1,53 @@
+
+.contact-container {
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+}
+
+.contact-container p{
+    margin: auto 0;
+    font-size: 1.25rem;
+    line-height: 2;
+}
+
+
+.email {
+    width: auto;
+    display: flex;
+}
+
+.email button {
+    border-radius: 5px;
+    margin-left: 6px;
+    border: 2px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    color: #000000;
+    font-size: 0.9rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    font-weight: bolder;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-family: 'Karla';
+    background: none;
+}
+
+.email button:hover {
+    color: rgb(123, 185, 255);
+    border: 2px solid rgb(123, 185, 255);
+  }
+  
+  .email button:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+  }
+  
+  .email button:focus-visible {
+    box-shadow: none;
+  }
+

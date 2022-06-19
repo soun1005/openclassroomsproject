@@ -1,0 +1,60 @@
+
+.header-wrap {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+}
+
+.logo-wrap {
+  display: flex;
+  width: 25vw;
+  height: auto;
+  align-items: center;
+}
+
+.text-in-logo {
+  margin: 0 10px;
+}
+
+.text-in-logo h2:hover {
+  color: rgb(177, 252, 245);
+  text-shadow: 0px 1px 3px pink;
+}
+
+.text-in-logo h2 {
+  font-size: 30px;
+  margin: 5px;
+}
+
+.text-in-logo p {
+  font-size: 17px;
+  margin: 0 15px;
+}
+
+header img {
+  width: 6vw;
+  height: auto;
+}
+
+nav {
+    height: 30vh;
+  }
+  
+nav ul {
+  display: flex;
+  width: 100%;
+  height: inherit;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 1.25rem;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a:hover {
+  color: #b1fcf5;
+  font-weight: 900;
+}
